@@ -24,7 +24,7 @@ class Computer
       score += empty_row(board[position_pair[0]])
       score += empty_col(board, position_pair[1])
 
-      score_arr.append(score)
+      score_arr.append(score.round(2))
     end
 
     score_arr
